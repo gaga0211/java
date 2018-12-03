@@ -6,5 +6,8 @@ public class HelloWorld
     double x = 4;
     double y = Math.sqrt(x);
     System.out.println(y);
+    double x1 = 9.997;
+    int nx1 = (int)x1;
+    System.out.println(nx1);
   }
 }
