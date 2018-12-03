@@ -9,5 +9,9 @@ public class HelloWorld
     double x1 = 9.997;
     int nx1 = (int)x1;
     System.out.println(nx1);
+    double x2 = 9.997; 
+    int nx2 = (int)Math.round(x2);
+    System.out.println(nx2);
+
   }
 }
