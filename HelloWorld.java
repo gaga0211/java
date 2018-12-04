@@ -1,3 +1,5 @@
+import java.sql.Date;
+
 import jdk.nashorn.internal.ir.JoinPredecessor;
 
 public class HelloWorld
@@ -29,6 +31,11 @@ public class HelloWorld
     //String name = in.nextLine();
 
     double x3 = 10000.0/3.0;
-    System.out.printf(x3);
+    System.out.println(x3);
+    System.out.printf("%9.3f\n",x3);
+
+    System.out.printf("%tc",new Date(1));
+    
+
   }
 }
