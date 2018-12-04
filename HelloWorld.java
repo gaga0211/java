@@ -24,5 +24,11 @@ public class HelloWorld
     String greeting = "Hello";
     int n = greeting.length();
     System.out.println(n);
+
+    //System.out.print("what is your name?");
+    //String name = in.nextLine();
+
+    double x3 = 10000.0/3.0;
+    System.out.printf(x3);
   }
 }
