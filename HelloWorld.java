@@ -1,6 +1,7 @@
 import java.sql.Date;
 
 import jdk.nashorn.internal.ir.JoinPredecessor;
+import sun.security.x509.X400Address;
 
 public class HelloWorld
 {
@@ -59,5 +60,26 @@ public class HelloWorld
     //定义变量存放Unicode编码表示的字符
     char c ='\u005d';
     System.out.println("c =" + c);
+
+    int x4 = 0,y4 = 0;
+    System.out.println("x4=" + x4);
+    System.out.println("y4=" + y4);
+
+    //char类型和int类型之间的转换
+    char c1 =(char)65536;
+    int n1;
+    n1 = c1;//隐式类型转换
+    c = (char)n1;
+
+    //整型和浮点型的类型装换
+    int x5 = 100;
+    long y5 = x5;
+    x5 = (int)y5;
+    float f1 = 100000000000000l;
+    System.out.println("f1=" + f1);
+    float f2 = 1074849393939393l;
+    System.out.println("f2=" + f2);
+
+
   }
 }
