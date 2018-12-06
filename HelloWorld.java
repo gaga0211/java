@@ -97,5 +97,14 @@ public class HelloWorld
     y6 = (--x6) + 5;
     System.out.println("x6=" + x6 + ",y6=" + y6);
 
+    int num1 = 10,num2 = 5;
+    int result;
+    result = num1 + num2;
+    System.out.println(num1 + "+" + num2 + "=" + result);
+    //字符串连接
+    System.out.println("" + num1 + num2);
+    //算术运算符
+    System.out.println(num1 + num2);
+
   }
 }
