@@ -78,8 +78,24 @@ public class HelloWorld
     float f1 = 100000000000000l;
     System.out.println("f1=" + f1);
     float f2 = 1074849393939393l;
-    System.out.println("f2=" + f2);
+    System.out.println("f2=" + f2);//long型转换成float型可能会发生数据丢失
 
+    //x++
+    int x6 = 4;
+    int y6 = (x6++) + 5;
+    System.out.println("x6=" + x6 + ",y6=" + y6);
+    //++x
+    x6 = 4;
+    y6 = (++x6) + 5;
+    System.out.println("x6=" + x6 + ",y6=" + y6);
+    //x--
+    x6 = 4;
+    y6 = (x6--) + 5;
+    System.out.println("x6=" + x6 + ",y6=" + y6);
+    //--x
+    x6 = 4;
+    y6 = (--x6) + 5;
+    System.out.println("x6=" + x6 + ",y6=" + y6);
 
   }
 }
