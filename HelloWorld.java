@@ -34,8 +34,24 @@ public class HelloWorld
     System.out.println(x3);
     System.out.printf("%9.3f\n",x3);
 
-    System.out.printf("%tc",new Date(1));
+    System.out.printf("%tc\n",new Date(1));
+
+    for(int i = 10;i > 0;i--)
+      System.out.println("Counting down . . . " + i);
+    System.out .println("B1astoff!") ;
+
+    float f = 1234.324f;
+    System.out.println("f = " + f);
     
+    double d = 1234.328d;
+    System.out.println("d = " + d);
+
+    double d1 = 1234;
+    System.out.println("d1 = " + d1);
+
+    double d2 = d;
+    System.out.println("d2 = " + d2);
+
 
   }
 }
