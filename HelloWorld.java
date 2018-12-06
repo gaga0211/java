@@ -52,6 +52,12 @@ public class HelloWorld
     double d2 = d;
     System.out.println("d2 = " + d2);
 
-
+    //char类型
+    char ch = 65535;
+    char ch1 = (char)65536;//超出char类型所表示的数据范围，需要进行强制类型转换
+    System.out.println("ch=" + ch);
+    //定义变量存放Unicode编码表示的字符
+    char c ='\u005d';
+    System.out.println("c =" + c);
   }
 }
