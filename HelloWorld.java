@@ -1,4 +1,8 @@
 import java.sql.Date;
+import java.unit.Scanner;
+
+import com.sun.java_cup.internal.runtime.Scanner;
+import com.sun.java_cup.internal.runtime.Symbol;
 
 import jdk.nashorn.internal.ir.JoinPredecessor;
 import sun.security.x509.X400Address;
@@ -106,5 +110,50 @@ public class HelloWorld
     //算术运算符
     System.out.println(num1 + num2);
 
+    double price1,prince2;
+    price1 = 80;
+    prince2 = 50;
+    double sum = price1 + prince2;
+    System.out.println("原价为" + sum);
+    if(sum > 100){
+      sum -=20;
+      System.out.println("折后价为" + sum);
+    }
+
+    //从键盘接收数据
+    /*
+    System.out.println("请输入一个整数：");
+    Scanner s = new Scanner(System.in);
+    int p = s.nextInt();
+    if(p % 2 == 0){
+      System.out.println(p + "是偶数！");
+    }else{
+      System.out.println(p + "是奇数！");
+    }
+    */
+    int a = 4,b = 7;
+    int max;
+    if(a > b){
+      max = a;
+    }
+    else{
+      max = b;
+    }
+    System.out.println(("max=" + max));
+    max = a > b ? a : b;
+    System.out.println(("max=" + max));    
+
+    /*
+    System.out.println("请输入年份：");
+    Scanner sc = new Scanner(System.in);
+    int year = sc.nextInt();
+    if (((year % 4 == 0) & (year % 100 != 0))|(year % 400 == 0)){
+      System.out.println(year + "是闰年");
+    }
+    else{
+      System.out.println(year + "不是闰年");
+
+    }
+    */
   }
 }
